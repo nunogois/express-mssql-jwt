@@ -2,10 +2,10 @@
 
 A minimalist Node JS API showcasing an example with Express + MSSQL (SQL Server) + Passport + JWT that among other things includes:
 
-* [Express](http://expressjs.com/);
-* [mssql](https://www.npmjs.com/package/mssql);
-* [Passport](http://www.passportjs.org/);
-* [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken);
+* [Express](http://expressjs.com/)
+* [mssql](https://www.npmjs.com/package/mssql)
+* [Passport](http://www.passportjs.org/)
+* [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 
 ## Setting up
 
@@ -15,9 +15,9 @@ There are 3 main files.
 * **session.js** - Handles authentication using Passport and JWT. You should properly secure *server_secret*. I've added a simple SQL check as a LocalStrategy (Passport) that you'll probably want to change.
 
 ### Quick Start
-1. Run `npm install` on the project folder to install pre-requisites;
-2. Run `npm start` to start the server;
-3. Browse to [localhost:3000](http://localhost:3000);
+1. Run `npm install` on the project folder to install pre-requisites
+2. Run `npm start` to start the server
+3. Browse to [localhost:3000](http://localhost:3000)
 
 I suggest using [Postman](https://www.getpostman.com/) to test it.
 After correctly setting up:
