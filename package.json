@@ -1,0 +1,23 @@
+{
+  "name": "mssql_test",
+  "version": "0.0.1",
+  "description": "mssql_test",
+  "main": "server.js",
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.0",
+    "mssql": "^4.3.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
